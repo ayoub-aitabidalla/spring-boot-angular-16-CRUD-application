@@ -1,0 +1,6 @@
+<mat-toolbar class="w-full mx-auto border-x justify-between toolbar">
+  <a routerLink="login">CRUD-API</a>
+  <button *ngIf="currentUser" mat-raised-button (click)= "logout()">Logout</button>
+</mat-toolbar>
+
+

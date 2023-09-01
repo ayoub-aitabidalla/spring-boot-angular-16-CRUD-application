@@ -1,0 +1,14 @@
+.btn-space{
+    margin-right: 8px;
+}
+.homeIcon{
+    color: rgb(59 130 246);
+}
+.delete{
+    color: black;
+    cursor: pointer;
+}
+.create{
+    color: black;
+    cursor: pointer;
+}

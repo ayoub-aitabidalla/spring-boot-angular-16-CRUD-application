@@ -1,0 +1,38 @@
+<div class=" w-96 mx-auto">
+    <form (ngSubmit)="create()">
+        <div class="form-group">
+            <label for="first_Name" class="block text-gray-700 text-sm font-bold mb-2">firstName</label>
+            <input [(ngModel)]="client.firstName"  name="firstName"  id="first_Name"  class="shadow appearance-none border rounded w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+               required>
+        </div>
+        <div class="form-group">
+            <label for="last_Name" class="block text-gray-700 text-sm font-bold mb-2">lastName</label>
+            <input [(ngModel)]="client.lastName" name="lastName"  id="last_Name"  class="shadow appearance-none border rounded w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                required>
+        </div>
+        <div class="form-group">
+            <label for="last_Name" class="block text-gray-700 text-sm font-bold mb-2">address</label>
+            <input [(ngModel)]="client.address" name="address"  id="address"  class="shadow appearance-none border rounded w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                required>
+        </div>
+        <div class="form-group">
+            <label for="last_Name" class="block text-gray-700 text-sm font-bold mb-2">mobile</label>
+            <input [(ngModel)]="client.mobile" name="mobile"  id="mobile"  class="shadow appearance-none border rounded w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                required>
+        </div>
+        <div class="form-group">
+            <label for="last_Name" class="block text-gray-700 text-sm font-bold mb-2">email</label>
+            <input [(ngModel)]="client.email"  name="email"  id="email"  class="shadow appearance-none border rounded w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                required>
+        </div>
+        <div class="form-group">
+            <label for="last_Name" class="block text-gray-700 text-sm font-bold mb-2">password</label>
+            <input [(ngModel)]="client.password"  name="password"  id="password" type="password"  class="shadow appearance-none border rounded w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+               required >
+        </div>
+        <button  mat-raised-button class="mt-5 w-full" color="primary">create</button>
+
+    </form>
+   
+</div>
+
